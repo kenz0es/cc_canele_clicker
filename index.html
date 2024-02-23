@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canelé Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Neucha&family=Pacifico&display=swap');
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Canelé Clicker</h1>
+    </div>
+    <div>
+        <img alt="big canelé" src="canele.jpg"/>
+    </div>
+    <div>
+        <p>Vous avez
+        <span id="nb_canele">0</span>
+        canelé(s).</p>
+    </div>
+    <div>
+        <button onclick="addCanelé()">Cuisiner</button>
+        <button id="ovenButton" onclick="addOven()" disabled="true">Acheter un four</button>
+    </div>
+    <script type="text/javascript" src="cuisson.js"></script>
+</body>
+</html>
